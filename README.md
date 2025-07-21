@@ -7,7 +7,7 @@ Esse repositório reúne os projetos que desenvolvi durante meu aprendizado em H
 ## 📁 Projetos
 
 ### 1. [Business Card](./business%20card)
-Um cartão de visita digital simples, com foto, informações e links clicáveis.
+Um cartão de visita digital simples, com foto e informações.
 
 🔗 [Ver online com GitHub Pages (se publicado)](https://anaisabel1909.github.io/scrimba-projects/business%20card)
 
@@ -21,7 +21,7 @@ Uma página pessoal com estilo moderno, criada para treinar HTML semântico, CSS
 ---
 
 ### 3. [Hometown Homepage](./hometown%20homepage)
-Uma homepage fictícia de uma cidade natal, com foco em imagens, seções e responsividade básica.
+Uma homepage fictícia de uma cidade natal, com foco em imagens, seções.
 
 🔗 [Ver online](https://anaisabel1909.github.io/scrimba-projects/hometown%20homepage)
 
