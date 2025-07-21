@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #edf2fb;
+    /* font-family: "Courier Prime", monospace; */
+    /* font-family: "Figtree", sans-serif; */
+      /* font-family: "Merriweather", serif; */
+      /* font-family: "Bebas Neue", sans-serif; */
+      font-family: "DM Sans", sans-serif;
+}
+
+#hero {
+    background-image: url("rio-images/rio.jpeg");
+    background-size: cover;
+    height: 343px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rio-title {
+    color: #F1FAEE;
+    background-color: #004b23;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#rio-descrip {
+    color: #F1FAEE;
+    background-color: #007200;
+    font-size: 15px;
+    width: 280px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+#activities-section {
+    background-color: #FFF8E7;
+    color: #1D3557;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.actv-img{
+    border-radius: 5px;
+    width: 160px;
+    height: 80px;
+    margin: 5px;
+}
+
+.actv-title {
+    font-size: 13px;
+    width: 155px;
+    margin: 15px auto 0px;
+}
+
+.actv-descrip {
+    font-size: 12px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+#guide-card {
+    width: 270px;
+    margin: 50px auto;
+    padding: 0px 10px;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: #fae588;
+    border-bottom: 5px solid #eeba0b;
+}
+
+#guide-info {
+    color: #03045e;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#guide-img {
+    border-radius: 4px;
+    width: 120px;
+}
+
+#guide-descrip {
+    font-style: italic;
+}
