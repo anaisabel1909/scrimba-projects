@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h3>Jimmy's Diner</h3>
+            <h4>The best burguers and pizzas in town</h4>
+        </header>
+        <main>
+            <section id="menu-section"></section>
+            <section id="order-section">
+                <div id="order">
+                        <h4 class="your-order">Your order</h4>
+                        <div id="order-list"></div>
+                        <div class="price">
+                            <h4>Total price: </h4>
+                            <h4 id="total-price"></h4> 
+                        </div>
+                        <button class="green-btn" id="complete-order-btn">Complete order</button>
+                </div>
+            </section>
+            <section id="payment-modal">
+                <div class="modal">
+                    <h4>Enter card details</h4>
+                    <form id="payment-form">
+                        <!-- <label>Enter card details</label> -->
+                        <input
+                        type="text"
+                        id="userName"
+                        name="userName"
+                        placeholder="Enter your name"
+                        required>
+                        <input
+                        type="text"
+                        inputmode="numeric"
+                        id="cardNumber"
+                        name="cardNumber"
+                        placeholder="Enter card number"
+                        maxlength="16"
+                        required>
+                        <input
+                        type="text"
+                        inputmode="numeric"
+                        id="cardCVV"
+                        name="cardCVV"
+                        placeholder="Enter CVV"
+                        minlength="3"
+                        maxlength="4"
+                        required>
+                        <button type="submit" class="green-btn" id="pay-btn">Pay</button>
+                    </form>
+                </div>
+            </section>
+            <section id="order-on-the-way-section">
+            </section>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

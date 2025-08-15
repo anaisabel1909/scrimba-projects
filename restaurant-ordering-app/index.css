@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+} 
+
+header h3{
+    font-size: 30px;
+    margin: 0 0 5px 0;
+    font-weight: lighter;
+}
+
+header h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+    color: #FFFFFF;
+    
+    background-image: url("burguer-bckg-img.png");
+    background-size: cover;
+    
+    padding: 30px 40px;
+}
+
+.menu-section {
+    margin-top: 30px;
+}
+.menu-section, #order-section{
+    padding: 20px 40px;
+}
+
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-emoji {
+    font-size: 70px;
+    padding-right: 20px;
+}
+
+.menu-item-spec h4,.menu-item-spec p, .menu-item-spec h5 {
+    margin: 0px;
+    color: #000000;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.menu-item-spec p {
+    color: #8B8B8B;
+    
+    font-size: 16px;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item-spec h5 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.add-item-btn {
+    margin: 10px 10px 0 auto;
+    
+    width: 45px;
+    height: 45px;
+    
+    font-size: 25px;
+    color: #3C3C3C;
+    
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    background-color: #FFFFFF;
+}
+
+.separator {
+    padding: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+/* order section */
+#order {
+    display: none;
+}
+
+.your-order {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin: 0 0 5px;
+}
+
+#order-list {
+    margin-bottom: 20px;
+}
+
+.order-item h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.order-item button{
+    border: none;
+    
+    background-color: #F5F5F5f5;
+    
+    color: #BBBBBB;
+    font-size: 13px;
+    
+    margin: 5px;
+}
+
+.order-price {
+    margin-left: auto;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #393333;
+}
+
+.green-btn {
+    width: 100%;
+    padding: 20px;
+    
+    border: none;
+    border-radius: 3px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: white;
+    font-weight: bold;
+    
+    background-color: #16DB99;
+}
+
+/* modal */
+
+#payment-modal {
+    display: none;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    height: 450px;
+    width: 420px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    border-radius: 4px;
+    box-shadow: 0px 0px 100px 1px #666;
+    
+    background-color: #FFFFFF;
+    color: #000000;
+    
+    text-align: center;
+    
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    
+    padding: 20px;
+    
+    margin: 10px auto;
+    
+    border: 1px solid #757575;
+    border-radius: 4px;
+    
+    font-size: 20px;
+    
+    box-sizing: border-box;
+}
+
+#payment-modal .green-btn {
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* order message */
+
+#order-on-the-way-section {
+    padding: 0 40px;
+}
+
+.order-message-section {
+    display: block;
+    
+    width: 100%;
+    
+    margin: 0 auto 200px;
+    padding: 40px;
+    
+    background-color: #ECFDF5;
+    
+    border-radius: 3px;
+    
+    box-sizing: border-box;
+}
+
+.order-message {
+    color: #065F46;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+}
