@@ -1,0 +1,225 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 80px 40px;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("header-pic.jpg");
+    background-size: cover; 
+    background-position: center;
+    
+    color: white;
+    
+    position: relative;
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 43px;
+    margin: 0;
+}
+
+header h4 {
+    margin: auto 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    
+    width: 80%;
+    max-width: 560px;
+    height: 40px;
+    
+    padding-left: 10px;
+    
+    background-color: #FFFFFF;
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 170px;
+    transform: translate(-50%, 50%);
+}
+    
+/* search icon */
+
+.search-icon { /* como se fosse uma div que guarda o ícone */
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.search-icon path { /* o ícone em si*/
+    fill: #9CA3AF; 
+}
+
+/* input pra buscar o filme */
+.search-bar input {
+    border: none;
+    flex-grow: 1; /* faz o input ocupar todo o espaço livre */
+    color: #6B7280;
+    height: 100%;
+    font-size: 17.5px;
+}
+
+.search-bar input:focus, 
+.search-bar button {
+    outline: none;
+}
+
+/* search btn */
+.search-bar button {
+    border: none;
+    border-left: 1px solid #D1D5DB;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    background-color: #F9FAFB;
+    
+    color: #374151;
+    font-size: 17.5px;
+    
+    height: 100%;
+    
+    padding: 0px 40px;
+    
+}
+
+/* results placeholder */
+.results-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 200px 100px 300px;
+    
+    text-align: center;
+}
+
+.results-placeholder h2 {
+    color: #DFDDDD;
+    margin: 10px 0 0 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.movie-container {
+    margin: 80px 60px;
+    /* border: 1px solid red; */
+}
+
+.movie-info {
+    /* border: 1px solid green; */
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.movie-poster {
+    width: 120px;
+    height: 100%;
+    border-radius: 2.33px;
+}
+
+.movie-header {
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid blueviolet; */
+    margin-bottom: 15px;
+}
+
+.movie-title {
+    margin: 0 10px 0 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.movie-plot,
+.movie-details,
+.movie-title {
+    line-height: 20px;
+}
+
+.movie-details {
+    /* border: 1px solid black; */
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.star-icon {
+    width: 15px;
+    height: 15px;
+    
+    margin: 0 0 0 10px;
+    margin-left: 10px;
+}
+
+.add-icon path {
+    fill: #111827;
+}
+
+.add-icon {
+    width: 16px;
+    height: 16px;
+    margin: auto 5px auto 25px;
+    /* border: 1px solid blue; */
+}
+
+.font-size-12 {
+    font-size: 12px;
+    color: #111827;
+    margin: 0;
+}
+
+.font-size-14 {
+    font-size: 14px;
+    color: #6B7280;
+    margin: 0;
+}
+
+.add-icon path:hover,
+.add-icon path:focus {
+    fill: blueviolet;
+}
+
+.add-icon:hover {
+    cursor: pointer;
+    fill: blueviolet;
+}
+
+
+
