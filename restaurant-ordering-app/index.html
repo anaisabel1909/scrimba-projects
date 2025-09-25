@@ -1,9 +1,11 @@
 <html>
     <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="stylesheet" href="index.css">
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -11,18 +13,20 @@
             <h4>The best burguers and pizzas in town</h4>
         </header>
         <main>
-            <section id="menu-section"></section>
-            <section id="order-section">
-                <div id="order">
-                        <h4 class="your-order">Your order</h4>
-                        <div id="order-list"></div>
-                        <div class="price">
-                            <h4>Total price: </h4>
-                            <h4 id="total-price"></h4> 
-                        </div>
-                        <button class="green-btn" id="complete-order-btn">Complete order</button>
-                </div>
-            </section>
+            <div id="menu-order-section">
+                <section id="menu-section"></section>
+                <section id="order-section">
+                    <div id="order">
+                            <h4 class="your-order">Your order</h4>
+                            <div id="order-list"></div>
+                            <div class="price">
+                                <h4>Total price: </h4>
+                                <h4 id="total-price"></h4> 
+                            </div>
+                            <button class="green-btn" id="complete-order-btn">Complete order</button>
+                    </div>
+                </section>
+            </divdiv>
             <section id="payment-modal">
                 <div class="modal">
                     <h4>Enter card details</h4>
@@ -55,7 +59,18 @@
                     </form>
                 </div>
             </section>
-            <section id="order-on-the-way-section">
+            <section id="order-on-the-way-section"></section>
+            <section id="rating-modal">
+                <div id="rate-experience-modal">
+                    <h4>Rate your experience</h4>
+                    <div id="rating-stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
             </section>
         </main>
 	<script src="index.js" type="module"></script>

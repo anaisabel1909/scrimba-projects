@@ -8,6 +8,7 @@ const completeOrderBtn = document.getElementById("complete-order-btn")
 const paymentForm = document.getElementById("payment-form")
 const paymentModal = document.getElementById("payment-modal")
 const orderOnTheWayMessage = document.getElementById("order-on-the-way-section")
+const menu0rderSection = document.getElementById("menu-order-section")
 
 let orderArray = []
 
@@ -41,6 +42,7 @@ menu.addEventListener('click', function(e) {
     if(e.target.dataset.itemId){
         addItemToOrder(e.target.dataset.itemId)
         order.style.display = 'block';
+        // menu0rderSection.style.display = 'flex';
     }
 })
 
@@ -85,6 +87,9 @@ function removeItemFromOrder(itemId) {
             renderOrderList()
             break
         }
+    }
+    if (orderArray.length === 0) {
+        order.style.display = 'none'
     }
 }
 
